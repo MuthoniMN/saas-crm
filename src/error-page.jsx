@@ -10,6 +10,7 @@ const Error = () => {
             <p>
                 {err.statusText || err.message}
             </p>
+            <a href="/">Back to Home</a>
         </div>
     )
 }
