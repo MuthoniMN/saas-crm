@@ -4,6 +4,7 @@ import Error from './error-page.jsx'
 import Deals from './pages/Deals/Deals.jsx'
 import './App.css'
 import Layout from './components/Layout'
+import AddClient from './pages/AddClient/AddClient.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         element: <Deals />
       }
     ]
+  },
+  {
+    path: '/client/new',
+    element: <AddClient />
   }
 
 ])
