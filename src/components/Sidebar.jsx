@@ -1,12 +1,9 @@
-import { faBriefcase, faCalendar, faChartBar, faChartColumn, faGear, faListCheck, faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCalendar, faChartColumn, faGear, faListCheck, faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
-
-import "../App.css"
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
-    const [active, setActive] = useState("")
     return (
         <nav>
             <h3>CRM</h3>
