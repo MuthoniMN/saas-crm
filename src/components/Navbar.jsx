@@ -12,7 +12,7 @@ const Navbar = () => {
                 {dropdown && <div className="drop-down">
                     <ul>
                         <li><a href="/client/new">Client <FontAwesomeIcon icon={faArrowRight} /></a></li>
-                        <li><a href="/deal/new">Deal <FontAwesomeIcon icon={faArrowRight} /></a></li>
+                        <li><a href="/project/new">Deal <FontAwesomeIcon icon={faArrowRight} /></a></li>
                         <li><a href="/meeting/new">Meeting <FontAwesomeIcon icon={faArrowRight} /></a></li>
                     </ul>
                 </div>}
