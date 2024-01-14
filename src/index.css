@@ -17,6 +17,7 @@ a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
+  cursor: pointer;
 }
 
 a:hover {
@@ -64,6 +65,20 @@ button:focus-visible {
   background: white;
   border: 2px solid #514EF3;
   color: #535bf2;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #514EF3;
+  border-radius: 20px;
+  border: 3px solid white;
 }
 
 @media (prefers-color-scheme: light) {
