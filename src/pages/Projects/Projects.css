@@ -1,15 +1,12 @@
 .plain-container {
-    position: absolute;
-    top: 75px;
-    left: 100px;
-    right: 0;
+    margin-top: 75px;
+    margin-left: 100px;
     background: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
     padding: 0 24px;
-    z-index: -10;
     overflow: hidden;
 }
 
@@ -35,7 +32,7 @@ table {
     overflow-x: auto;
 }
 
-.plain-container header+div {
+.plain-container header+a+div {
     max-width: 100%;
     position: relative;
     box-sizing: content-box;
@@ -45,8 +42,17 @@ table {
 tr>* {
     text-align: left;
     width: 120px;
+    padding: 6px 0;
 }
 
 .title {
     width: 250px;
+}
+
+.plain-container>a {
+    margin: 0 0 12px;
+}
+
+.plain-container a:hover {
+    text-decoration: underline;
 }

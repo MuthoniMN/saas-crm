@@ -45,6 +45,7 @@ const Projects = () => {
                     <button className="btnVariant">Filter <FontAwesomeIcon icon={faFilter} /> </button>
                 </div>
             </header>
+            <NavLink to={"/project/new"}>Add New Project</NavLink>
             <div>
                 <table>
                     <tr>
@@ -63,7 +64,7 @@ const Projects = () => {
                             <td>{project.service}</td>
                             <td>{project.dueDate}</td>
                             <td>{project.price}</td>
-                            <td>{project.status}</td>
+                            <td>{project.status || "Not Started"}</td>
                             <td style={{ textAlign: "center" }}><NavLink to={`/project/edit/id`}><FontAwesomeIcon icon={faEdit} /></NavLink></td>
                         </tr>
                     ))
