@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+form {
+    margin: 32px 0;
+}
+
 .fileBtn {
     background: #514EF3;
     color: white;
