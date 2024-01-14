@@ -6,20 +6,24 @@ import Layout from './components/Layout'
 import AddClient from './pages/AddClient/AddClient.jsx'
 import AddProject from './pages/AddProject/AddProject.jsx'
 import Projects from './pages/Projects/Projects.jsx'
+import Clients from './pages/Clients/Clients.jsx'
 
 const router = createBrowserRouter([
   {
     element: <Layout />,
+    errorElement: <Error />,
     children: [
       {
         path: '/',
         element: <Home />,
-        errorElement: <Error />
       },
       {
         path: '/projects',
-        element: <Projects />,
-        errorElement: <Error />
+        element: <Projects />
+      },
+      {
+        path: '/clients',
+        element: <Clients />
       }
     ]
   },

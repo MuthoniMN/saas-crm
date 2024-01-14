@@ -1,0 +1,58 @@
+.plain-container {
+    margin-top: 75px;
+    margin-left: 100px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 0 24px;
+    overflow: hidden;
+}
+
+.container.plain-container header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.btnVariant {
+    border: none;
+}
+
+table {
+    width: 100%;
+    position: relative;
+    table-layout: fixed;
+    overflow-x: auto;
+}
+
+.plain-container header+a+div {
+    max-width: 100%;
+    position: relative;
+    box-sizing: content-box;
+    overflow-x: auto;
+}
+
+tr>* {
+    text-align: left;
+    width: 120px;
+    padding: 6px 0;
+}
+
+.title {
+    width: 250px;
+}
+
+.plain-container>a {
+    margin: 0 0 12px;
+}
+
+.plain-container a:hover {
+    text-decoration: underline;
+}
