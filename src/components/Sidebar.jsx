@@ -14,7 +14,7 @@ const Sidebar = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/deals">
+                    <NavLink to="/projects">
                         <FontAwesomeIcon icon={faBriefcase} />
                     </NavLink>
                 </li>

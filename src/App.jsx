@@ -5,6 +5,7 @@ import './App.css'
 import Layout from './components/Layout'
 import AddClient from './pages/AddClient/AddClient.jsx'
 import AddProject from './pages/AddProject/AddProject.jsx'
+import Projects from './pages/Projects/Projects.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+        errorElement: <Error />
+      },
+      {
+        path: '/projects',
+        element: <Projects />,
         errorElement: <Error />
       }
     ]
