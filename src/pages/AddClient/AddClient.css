@@ -62,7 +62,7 @@ input {
     width: 100%;
 }
 
-form+div {
+.btnContainer {
     margin: 24px 0;
     display: flex;
     gap: 12px;

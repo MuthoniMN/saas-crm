@@ -42,11 +42,12 @@ const AddClient = () => {
                         <label htmlFor="address">Address:</label>
                         <input type="tel" name="address" id="address" />
                     </div>
+                    <div className="btnContainer">
+                        <button className="btnVariant" onClick={() => navigate("/")}>Cancel</button>
+                        <button type="submit">Add New Client</button>
+                    </div>
                 </form>
-                <div>
-                    <button className="btnVariant" onClick={() => navigate("/")}>Cancel</button>
-                    <button>Add New Client</button>
-                </div>
+
             </section>
         </section>
     )
