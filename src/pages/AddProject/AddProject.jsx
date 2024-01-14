@@ -39,6 +39,10 @@ const AddProject = () => {
                         <label htmlFor="dueDate">Due Date:</label>
                         <input type="date" name="dueDate" id="dueDate" />
                     </div>
+                    <div className="inputContainer">
+                        <label htmlFor="price">Price:</label>
+                        <input type="date" name="price" id="price" />
+                    </div>
                     <div className="btnContainer">
                         <button className="btnVariant" onClick={() => navigate("/")}>Cancel</button>
                         <button type="submit">Add New Client</button>
