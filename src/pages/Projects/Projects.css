@@ -1,0 +1,52 @@
+.plain-container {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    right: 0;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 0 24px;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.container.plain-container header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.btnVariant {
+    border: none;
+}
+
+table {
+    width: 100%;
+    position: relative;
+    table-layout: fixed;
+    overflow-x: auto;
+}
+
+.plain-container header+div {
+    max-width: 100%;
+    position: relative;
+    box-sizing: content-box;
+    overflow-x: auto;
+}
+
+tr>* {
+    text-align: left;
+    width: 120px;
+}
+
+.title {
+    width: 250px;
+}
